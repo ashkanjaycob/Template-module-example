@@ -1,0 +1,38 @@
+<!--footer-->
+<footer class="">
+	<div>
+		<!-- write codes here ... -->
+	  </div>
+</footer>
+<!--/footer-->
+
+<!--copyright-->
+<div class="">
+	<div>
+		<!-- write codes here ... -->
+	  </div>
+</div>
+<!--/copyright-->
+
+<include name="layouts/templates/partials/bottom-navigation.html" />
+
+
+<script type="text/javascript" src="@@theme/static/js/jquery.min.js"></script>
+<script type="text/javascript" src="@@theme/static/js/cedarmaps.js"></script>
+<script type="text/javascript" src="@@theme/js/theme.js"></script>
+<script type="module" crossorigin src="http://localhost:5000/src/main.js"></script>
+<script type="text/javascript" src="@@theme/static/js/app.js"></script>
+<script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=@@analyticsid" async></script>
+<!-- Add More...  -->
+
+<!-- beautify ignore:start -->
+<if terms="@@schema.exists()">
+	<script type="application/ld+json">
+		@@schema
+	</script>
+</if>
+<!-- beautify ignore:end -->
+
+</body>
+
+</html>

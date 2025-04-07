@@ -1,0 +1,117 @@
+:root {
+  /* Write variables for taiwlind css ... */
+  /* Colors */
+  --kt-primary: theme(variables.rgbColors.primary);
+  --kt-blue: theme(variables.rgbColors.blue);
+  --kt-green: theme(variables.rgbColors.green);
+  --kt-red: theme(variables.rgbColors.red);
+  --kt-orange: theme(variables.rgbColors.orange);
+  --kt-yellow: theme(variables.rgbColors.yellow);
+  --kt-secondary: theme(variables.rgbColors.secondary);
+  --kt-gray: theme(variables.rgbColors.gray);
+  --kt-dark: theme(variables.rgbColors.dark);
+  --kt-light: theme(variables.rgbColors.light);
+  --kt-gray-100: theme(variables.rgbColors.gray-100);
+  --kt-gray-200: theme(variables.rgbColors.gray-200);
+  --kt-gray-300: theme(variables.rgbColors.gray-300);
+  --kt-gray-400: theme(variables.rgbColors.gray-400);
+  --kt-gray-500: theme(variables.rgbColors.gray-500);
+  --kt-gray-600: theme(variables.rgbColors.gray-600);
+  --kt-gray-700: theme(variables.rgbColors.gray-700);
+  --kt-gray-800: theme(variables.rgbColors.gray-800);
+  --kt-gray-900: theme(variables.rgbColors.gray-900);
+  --kt-border-color: var(--kt-gray-300);
+  --kt-special-offers-bg: #ff6933;
+
+  --kt-red-dark: theme(variables.rgbColors.red-dark);
+  --kt-green-dark: theme(variables.rgbColors.green-dark);
+
+  /* Buttons */
+
+  --kt-primary-btn-bg: theme(colors.primary);
+  --kt-primary-btn-hover-bg: color(
+    theme(variables.colors.primary) lightness(-3%)
+  );
+
+  --kt-primary-light-btn-color: color(
+    theme(variables.colors.primary) lightness(-18%)
+  );
+  --kt-primary-light-btn-bg: color(theme(variables.colors.primary) a(0.2));
+  --kt-primary-light-btn-hover-color: color(
+    theme(variables.colors.primary) lightness(-18%)
+  );
+  --kt-primary-light-btn-hover-bg: color(
+    theme(variables.colors.primary) a(0.2)
+  );
+
+  --kt-green-btn-bg: theme(colors.green);
+  --kt-green-btn-hover-bg: color(theme(variables.colors.green) lightness(-4%));
+
+  --kt-green-light-btn-color: color(
+    theme(variables.colors.green) lightness(-15%)
+  );
+  --kt-green-light-btn-bg: color(theme(variables.colors.green) a(0.18));
+  --kt-green-light-btn-hover-color: color(
+    theme(variables.colors.green) lightness(-19%)
+  );
+  --kt-green-light-btn-hover-bg: color(theme(variables.colors.green) a(0.23));
+
+  --kt-blue-btn-bg: theme(colors.blue);
+  --kt-blue-btn-hover-bg: color(theme(variables.colors.blue) lightness(-4%));
+
+  --kt-blue-light-btn-color: color(
+    theme(variables.colors.blue) lightness(-15%)
+  );
+  --kt-blue-light-btn-bg: color(theme(variables.colors.blue) a(0.16));
+  --kt-blue-light-btn-hover-color: color(
+    theme(variables.colors.blue) lightness(-20%)
+  );
+  --kt-blue-light-btn-hover-bg: color(theme(variables.colors.blue) a(0.2));
+
+  --kt-red-btn-bg: theme(colors.red);
+  --kt-red-btn-hover-bg: color(theme(variables.colors.red) lightness(-4%));
+
+  --kt-red-light-btn-color: color(theme(variables.colors.red) lightness(-15%));
+  --kt-red-light-btn-bg: color(theme(variables.colors.red) a(0.16));
+  --kt-red-light-btn-hover-color: color(
+    theme(variables.colors.red) lightness(-15%)
+  );
+  --kt-red-light-btn-hover-bg: color(theme(variables.colors.red) a(0.16));
+
+  --kt-light-btn-color: theme(colors.dark);
+  --kt-light-btn-bg: theme(colors.light);
+  --kt-light-btn-hover-color: theme(colors.dark);
+  --kt-light-btn-hover-bg: color(
+    theme(variables.colors.light) lightness(-1.5%)
+  );
+
+  --kt-gray-btn-bg: theme(colors.gray);
+  --kt-gray-btn-hover-bg: color(theme(variables.colors.gray) lightness(-4%));
+
+  /* Badges */
+
+  --kt-primary-badge-color: color(theme(variables.colors.primary) shade(50%));
+  --kt-primary-badge-bg: color(theme(variables.colors.primary) tint(80%));
+
+  --kt-red-badge-color: color(theme(variables.colors.red) shade(50%));
+  --kt-red-badge-bg: color(theme(variables.colors.red) tint(80%));
+
+  --kt-blue-badge-color: color(theme(variables.colors.blue) shade(50%));
+  --kt-blue-badge-bg: color(theme(variables.colors.blue) tint(80%));
+
+  --kt-green-badge-color: color(theme(variables.colors.green) shade(50%));
+  --kt-green-badge-bg: color(theme(variables.colors.green) tint(80%));
+
+  /* Alerts */
+  --kt-green-alert-color: color(theme(variables.colors.green) shade(50%));
+  --kt-green-alert-bg: color(theme(variables.colors.green) tint(87%));
+
+  --kt-blue-alert-color: color(theme(variables.colors.blue) shade(50%));
+  --kt-blue-alert-bg: color(theme(variables.colors.blue) tint(87%));
+
+  --kt-orange-alert-color: color(theme(variables.colors.orange) shade(50%));
+  --kt-orange-alert-bg: color(theme(variables.colors.orange) tint(87%));
+
+  --kt-red-alert-color: color(theme(variables.colors.red) shade(50%));
+  --kt-red-alert-bg: color(theme(variables.colors.red) tint(87%));
+}

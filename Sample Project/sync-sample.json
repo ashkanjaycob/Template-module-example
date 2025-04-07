@@ -1,0 +1,6 @@
+{
+    "api": "https://xxxxxxxxxx.imcloud.org/site/api/v1/manage/files",
+    "path": "/themes/custom-xxxxxxxxxx/",
+    "username": "xxxxxxxxxx",
+    "password": "xxxxxxxxxx"
+}

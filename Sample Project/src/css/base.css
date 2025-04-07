@@ -1,0 +1,66 @@
+@layer base {
+  html {
+    /* write styles here ... */
+  }
+  body {
+    /* write styles here ... */
+  }
+  i {
+    /* write styles here ... */
+  }
+  * {
+    /* write styles here ... */
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    /* write styles here ... */
+  }
+  h1,
+  h2,
+  h3 {
+    /* write styles here ... */
+  }
+
+  h4,
+  h5,
+  h6 {
+    /* write styles here ... */
+  }
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  input:-webkit-autofill:active {
+    /* write styles here ... */
+  }
+}
+
+@layer utilities {
+  .dir-ltr {
+    /* write styles here ... */
+  }
+  .dir-rtl {
+    /* write styles here ... */
+  }
+  .break-words {
+    /* write styles here ... */
+  }
+  .pb-safe {
+    /* write styles here ... */
+  }
+  .mb-safe {
+    /* write styles here ... */
+  }
+  .text-inherit {
+    /* write styles here ... */
+  }
+  .fa-numbers {
+    /* write styles here ... */
+  }
+  .monospace {
+    /* write styles here ... */
+  }
+}

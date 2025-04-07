@@ -1,0 +1,62 @@
+/* Add fonts in woff2 format to project ...  */
+@import "./icons/style.css";
+
+@font-face {
+  font-family: IRANYekanX;
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/IRANYekanX-Light.woff") format("woff"),
+    url("../fonts/IRANYekanX-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: IRANYekanX;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/IRANYekanX-Regular.woff") format("woff"),
+    url("../fonts/IRANYekanX-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: IRANYekanX;
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/IRANYekanX-Medium.woff") format("woff"),
+    url("../fonts/IRANYekanX-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: IRANYekanX;
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/IRANYekanX-DemiBold.woff") format("woff"),
+    url("../fonts/IRANYekanX-DemiBold.woff2") format("woff2");
+}
+@font-face {
+  font-family: IRANYekanX;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/IRANYekanX-Bold.woff") format("woff"),
+    url("../fonts/IRANYekanX-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: IRANYekanX;
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/IRANYekanX-ExtraBold.woff") format("woff"),
+    url("../fonts/IRANYekanX-ExtraBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: IRANYekanX;
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/IRANYekanX-Black.woff") format("woff"),
+    url("../fonts/IRANYekanX-Black.woff2") format("woff2");
+}
+@font-face {
+  font-family: IRANYekanX;
+  font-style: normal;
+  font-weight: 950;
+  src: url("../fonts/IRANYekanX-ExtraBlack.woff") format("woff"),
+    url("../fonts/IRANYekanX-ExtraBlack.woff2") format("woff2");
+}
