@@ -109,7 +109,6 @@ Final, production-ready files served publicly.
 
 ```
 ├── static/
-│   ├── app.js
 │   ├── css/
 │   │   └── cedarmaps.css
 │   ├── js/
